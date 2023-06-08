@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buy Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-DOSMkMM/mcSZZJSBG0g2GfS9P2CYzB4RzRE0I/2bIj6Gf9XO96KllHXyCg6u9Nq5WTj02j/z3F/NuxPQTM4j1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <img src="assets/images/Logo.png" alt="Logo">
+    </div>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="our_product.html">Our Product</a></li>
+      <li><a href="search_product.html">Search Product</a></li>
+      <li><a href="buy.html">Buy</a></li>
+      <li><a href="my_cart.html">My Cart</a></li>
+      <li><a href="index.html">Logout</a></li>
+    </ul>
+  </nav>
+
+  <div class="row">
+    <div class="col-6">
+      <div class="buy-div">
+        <h2>Buy</h2>
+        <form onsubmit="confirmPurchase(event)">
+          <div class="payment-option">
+            <label>
+              <input type="radio" name="payment" value="credit_card" checked>
+              Credit Card
+            </label>
+            <label>
+              <input type="radio" name="payment" value="paypal">
+              PayPal
+            </label>
+          </div>
+          <div class="total-value">
+            <p>Total Pay:</p>
+            <span id="totalPay"></span>
+          </div>
+          <div class="note-textarea">
+            <label for="note">Note:</label>
+            <textarea id="note" name="note" rows="4" cols="50"></textarea>
+          </div>
+          <button type="submit" class="success-button">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="video-container">
+        <video autoplay muted loop>
+          <source src="https://example.com/your-video-file.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <script src="buy.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login and Signup Form</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="form-container" id="loginContainer">
+    <h1 id="loginFormTitle">Login</h1>
+    <form id="loginForm">
+      <label for="loginEmail">Email:</label>
+      <input type="email" id="loginEmail" value="" placeholder="Please Type Your Name...">
+      <label for="loginPassword">Password:</label>
+      <input type="password" id="loginPassword" value="" placeholder="Please Type Your Password...">
+      <div class="checkbox-label">
+        <input type="checkbox" id="rememberMe">
+        <label for="rememberMe">Remember Me</label>
+      </div>
+      <button type="submit">Login</button>
+      <p class="form-link">Don't have an account? <span id="switchToSignup">Sign up</span></p>
+    </form>
+  </div>
+
+  <div class="form-container" style="display: none;" id="signupContainer">
+    <h1 id="signupFormTitle">Signup</h1>
+    <form id="signupForm">
+      <label for="signupName">Name:</label>
+      <input type="text" id="signupName" placeholder="Please Type Your Name...">
+      <label for="signupEmail">Email:</label>
+      <input type="email" id="signupEmail" placeholder="Please Type Your Email...">
+      <label for="signupPassword">Password:</label>
+      <input type="password" id="signupPassword" placeholder="Please Type Your Password...">
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword" placeholder="Please Confirm Your Name...">
+      <label for="signupAge">Age:</label>
+      <input type="number" id="signupAge" placeholder="Please Type Your Age...">
+      <label for="signupBirthday">Birthday:</label>
+      <input type="date" id="signupBirthday">
+      <div class="checkbox-label">
+        <input type="checkbox" id="termsAndConditions" required>
+        <label for="termsAndConditions">I agree to the Terms and Conditions</label>
+      </div>
+      <button type="button" id="clearButton">Clear</button>
+      <button type="submit">Signup</button>
+      <p class="form-link">Already have an account? <span id="switchToLogin">Login</span></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Product Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-DOSMkMM/mcSZZJSBG0g2GfS9P2CYzB4RzRE0I/2bIj6Gf9XO96KllHXyCg6u9Nq5WTj02j/z3F/NuxPQTM4j1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+          <img src="assets/images/Logo.png" alt="Logo">
+        </div>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="our_product.html">Our Product</a></li>
+          <li><a href="search_product.html">Search Product</a></li>
+          <li><a href="buy.html">Buy</a></li>
+          <li><a href="my_cart.html">My Cart</a></li>
+          <li><a href="index.html">Logout</a></li>
+        </ul>
+      </nav>
+
+<body>
+  <header>
+    <h1>Search Product</h1>
+  </header>
+
+  <main>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search for a product">
+      <button onclick="searchProduct()">Search</button>
+    </div>
+
+    <div id="searchResults"></div>
+  </main>
+
+  <script src="search_product.js"></script>
+</body>
+
+</html>
