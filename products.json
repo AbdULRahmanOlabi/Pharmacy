@@ -1,49 +1,49 @@
 [
     {
-      "title": "Product 1",
-      "description": "Description of Product 1",
+      "title": "Fytika Strong Bones",
+      "description": "Fytika Strong Bones are bone support tablets that provide all the required nutrients needed for strong & healthy bones.",
       "price": 9.99,
-      "image": "assets/images/product1.jpg"
+      "image": "assets/images/product1.png"
     },
     {
-      "title": "Product 2",
-      "description": "Description of Product 2",
+      "title": "Diclofenac Gel",
+      "description": "Dealing with arthritis pain can be a challenge. The stiffness and pain may often make common tasks difficult.",
       "price": 19.99,
       "image": "assets/images/product2.png"
     },
     {
-      "title": "Product 3",
-      "description": "Description of Product 3",
+      "title": "Vicks DayQuil and NyQuil Combo Pack",
+      "description": "Powerful Multi-Symptom Daytime And Nighttime Relief For Headache, Fever, Sore Throat, Cough, 72 Count, 48 DayQuil, 24 NyQuil Liquicaps",
       "price": 29.99,
-      "image": "assets/images/product3.jpg"
+      "image": "assets/images/product3.png"
     },
     {
-        "title": "Product 4",
-        "description": "Description of Product 4",
+        "title": "Panadol Cold",
+        "description": "Panadol Cold + Flu All in one tablet provide relives from cold + flu symptoms including chesty cough Panadol Cold + flu All in one tablet",
         "price": 39.99,
         "image": "assets/images/product4.png"
     },
     {
-    "title": "Product 5",
-    "description": "Description of Product 5",
+    "title": "Actifed",
+    "description": "It is used to relieve the feeling of a stuffy nose, runny nose, headache and fever associated with colds.",
     "price": 49.99,
-    "image": "assets/images/product5.jpg"
+    "image": "assets/images/product5.png"
     },
     {
-    "title": "Product 6",
-    "description": "Description of Product 6",
+    "title": "Codral",
+    "description": "Fast, effective formula for relief of: Headaches and fever Body aches and pains Blocked/runny nose",
     "price": 59.99,
-    "image": "assets/images/product6.jpg"
+    "image": "assets/images/product6.png"
     },
     {
-    "title": "Product 7",
-    "description": "Description of Product 7",
+    "title": "Hadjod",
+    "description": "Hadjod accelerates the healing of fractures by supporting the delicate, healthy equilibrium between bone restoration and bone formation",
     "price": 69.99,
-    "image": "assets/images/product7.jpg"
+    "image": "assets/images/product7.png"
     },
     {
-    "title": "Product 8",
-    "description": "Description of Product 8",
+    "title": "Relife",
+    "description": "Pain Relife Tablet helps relieve pain and fever by blocking the release of certain chemical messengers responsible for fever and pain.",
     "price": 79.99,
     "image": "assets/images/product8.png"
     }

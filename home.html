@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Home Page</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-DOSMkMM/mcSZZJSBG0g2GfS9P2CYzB4RzRE0I/2bIj6Gf9XO96KllHXyCg6u9Nq5WTj02j/z3F/NuxPQTM4j1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-</head>
+  <head>
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Include Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Include Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>  
 <body>
 
     <nav>
@@ -22,67 +24,80 @@
         </ul>
       </nav>
 
-  <section id="image-slider">
-    <div class="slider-container">
-      <div class="slide active">
-        <img src="assets/images/image1.jpg" alt="Image 1">
-        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti
-            ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea
-            ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo.</div>
-      </div>
-      <div class="slide">
-        <img src="assets/images/image2.jpg" alt="Image 2">
-        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti
-            ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea
-            ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo.</div>
-      </div>
-      <div class="slide">
-        <img src="assets/images/image3.jpg" alt="Image 3">
-        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti
-            ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea
-            ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo.</div>
-      </div>
-      <div class="slide">
-        <img src="assets/images/image4.jpg" alt="Image 4">
-        <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti
-            ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea
-            ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo.</div>
-      </div>
-    </div>
-  </section>
+      <section id="image-slider">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/images/image1.jpg" alt="Image 1">
+              <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo.</div>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/images/image2.jpg" alt="Image 2">
+              <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo.</div>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/images/image3.jpg" alt="Image 3">
+              <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo.</div>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/images/image4.jpg" alt="Image 4">
+              <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo.</div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+          
 
   <div class="jumbotron">
-    <h2>Company Name</h2>
+    <h2>Medicio Company</h2>
     <p>Description of the company.</p>
   </div>
 
-  <section id="our-products">
+  <section id="our-products" style="padding: 0%;">
     <h2>Our Products</h2>
     <div class="product-container">
       <div class="product">
-        <img src="assets/images/product1.jpg" alt="Product 1">
-
+        <img src="assets/images/product1.png" alt="Product 1">
+        <h3>Team Member 2</h3>
+        <p>Role/Title</p>
       </div>
       <div class="product">
         <img src="assets/images/product2.png" alt="Product 2">
+        <h3>Team Member 2</h3>
+        <p>Role/Title</p>
       </div>
       <div class="product">
-        <img src="assets/images/product3.jpg" alt="Product 3">
+        <img src="assets/images/product3.png" alt="Product 3">
+        <h3>Team Member 2</h3>
+        <p>Role/Title</p>
       </div>
       <div class="product">
         <img src="assets/images/product4.png" alt="Product 4">
+        <h3>Team Member 2</h3>
+        <p>Role/Title</p>
       </div>
       <div class="product">
-        <img src="assets/images/product5.jpg" alt="Product 5">
+        <img src="assets/images/product5.png" alt="Product 5">
+        <h3>Team Member 2</h3>
+        <p>Role/Title</p>
       </div>
       <div class="product">
-        <img src="assets/images/product6.jpg" alt="Product 6">
+        <img src="assets/images/product6.png" alt="Product 6">
+        <h3>Team Member 2</h3>
+        <p>Role/Title</p>
       </div>
       <div class="product">
-        <img src="assets/images/product7.jpg" alt="Product 7">
+        <img src="assets/images/product7.png" alt="Product 7">
+        <h3>Team Member 2</h3>
+        <p>Role/Title</p>
       </div>
       <div class="product">
         <img src="assets/images/product8.png" alt="Product 8">
+        <h3>Team Member 2</h3>
+        <p>Role/Title</p>
       </div>
     </div>
   </section>
@@ -119,14 +134,14 @@
         </div>
       </div>
       <div class="service">
-        <img src="assets/images/service2.png" alt="Service 2">
+        <img src="assets/images/service3.jpg" alt="Service 2">
         <div class="service-details">
           <h4>Service 2</h4>
           <p>Description of Service 2</p>
         </div>
       </div>
       <div class="service">
-        <img src="assets/images/service3.jpg" alt="Service 3">
+        <img src="assets/images/service2.png" alt="Service 3">
         <div class="service-details">
           <h4>Service 3</h4>
           <p>Description of Service 3</p>
@@ -151,5 +166,6 @@
   </footer>
 
   <script src="home.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>

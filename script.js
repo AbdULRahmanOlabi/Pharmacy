@@ -65,29 +65,35 @@ signupForm.addEventListener('submit', function (e) {
     labels[i].classList.remove('error');
   }
 
+  // Check for empty fields
   if (name === '') {
     signupName.classList.add('error');
     document.querySelector('label[for="signupName"]').classList.add('error');
+    return;
   }
 
   if (email === '') {
     signupEmail.classList.add('error');
     document.querySelector('label[for="signupEmail"]').classList.add('error');
+    return;
   }
 
   if (password === '') {
     signupPassword.classList.add('error');
     document.querySelector('label[for="signupPassword"]').classList.add('error');
+    return;
   }
 
   if (age === '') {
     signupAge.classList.add('error');
     document.querySelector('label[for="signupAge"]').classList.add('error');
+    return;
   }
 
   if (birthday === '') {
     signupBirthday.classList.add('error');
     document.querySelector('label[for="signupBirthday"]').classList.add('error');
+    return;
   }
 
   if (!termsAndConditions.checked) {
