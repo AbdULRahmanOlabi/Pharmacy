@@ -141,6 +141,7 @@ button#clearButton:hover {
   background-color: #ce0202;
 }
 
+
 /*-------------------------------------------------*/
 /* =  2.Home Page
 /*-------------------------------------------------*/
@@ -155,7 +156,8 @@ nav {
 }
 
 nav .logo img {
-  height: 40px;
+  height: 50px;
+  width: 140px;
 }
 
 nav ul {
@@ -188,42 +190,6 @@ main {
 
 .logo img {
   height: 40px;
-}
-
-.menu-icon {
-  font-size: 20px;
-  cursor: pointer;
-  display: none;
-}
-
-.menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-}
-
-.menu li {
-  margin-left: 10px;
-}
-
-.menu li:first-child {
-  margin-left: 0;
-}
-
-.menu a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #333;
-  padding: 10px;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.menu a:hover {
-  background-color: #f2f2f2;
 }
 
 ul {
@@ -265,7 +231,7 @@ li a i {
 #image-slider {
   position: relative;
   width: 100%;
-  height: 100vh;
+ 
   overflow: hidden;
 }
 
@@ -370,11 +336,10 @@ li a i {
 }
 
 .product-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  justify-items: center;
-  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .product {
@@ -468,7 +433,7 @@ li a i {
 
 .service-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
   gap: 20px;
 }
 
@@ -872,3 +837,4 @@ button:hover {
     max-width: 100%;
   }
 }
+
